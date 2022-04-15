@@ -21,7 +21,7 @@ describe('Date Resolver', function () {
 
   it('should resolve a numeric date', function () {
     himawari.resolveDate("base_url", 1451635200000, function (err, now) {
-      assert.equal(now.toString(), "Fri Jan 01 2016 00:00:00 GMT-0800 (PST)");
+      assert.equal(now.toString(), "Fri Jan 01 2016 00:00:00 GMT-0800 (Pacific Standard Time)");
     });
   });
 
