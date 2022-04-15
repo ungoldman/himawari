@@ -1,3 +1,9 @@
+## Note ⚠️
+
+**This is a maintained fork of [jakiestfu/himawari.js](https://github.com/jakiestfu/himawari.js), published under a different namespace.**
+
+---
+
 <a href="http://jakiestfu.github.io/himawari.js/demo/">
   <img src="http://i.imgur.com/MUefuXm.png">
 </a>
@@ -24,7 +30,7 @@
 ```sh
 brew install imagemagick
 brew install graphicsmagick
-npm i himawari
+npm i @ungoldman/himawari
 ```
 
 If you would like to generate videos, `ffmpeg` is also required.
@@ -34,7 +40,7 @@ brew install ffmpeg
 
 ## Usage
 ```javascript
-var himawari = require('himawari');
+var himawari = require('@ungoldman/himawari')
 
 himawari({
 
@@ -99,23 +105,23 @@ himawari({
    * A success callback if the image downloads successfully
    * @type {Function}
    */
-  success: function () { process.exit(); },
+  success: function () { process.exit() },
 
   /**
    * A callback if the image cannot be downloaded or saved
    * @type {Function}
    * @param  {Object} err An error object or information surrounding the issue
    */
-  error: function (err) { console.log(err); },
+  error: function (err) { console.log(err) },
 
   /**
    * A callback that is fired every time a tile has been downloaded.
    * @param  {Object} info Information about the download such as filepath, part, and total images
    */
   chunk: function (info) {
-    console.log(info.outfile + ': ' + info.part + '/' + info.total);
+    console.log(info.outfile + ': ' + info.part + '/' + info.total)
   }
-});
+})
 
 ```
 
