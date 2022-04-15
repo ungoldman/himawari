@@ -1,6 +1,6 @@
 ## Note ⚠️
 
-**This is a maintained fork of [jakiestfu/himawari.js](https://github.com/jakiestfu/himawari.js), published under a different namespace.**
+**This is a maintained fork of [jakiestfu/himawari.js](https://github.com/jakiestfu/himawari.js) published under a different namespace.**
 
 ---
 
@@ -12,8 +12,8 @@
 
 [![npm][npm-image]][npm-url]
 
-[npm-image]: https://img.shields.io/npm/v/himawari.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/himawari
+[npm-image]: https://img.shields.io/npm/v/@ungoldman/himawari.svg
+[npm-url]: https://www.npmjs.com/package/@ungoldman/himawari
 
 [Himawari 8](http://himawari8.nict.go.jp/) is a [geostationary](https://en.wikipedia.org/wiki/Geostationary_orbit) weather satellite deployed by the [Japan Meteorological Agency](http://www.jma.go.jp/jma/indexe.html). It takes photographs of Earth every 10 minutes.
 
