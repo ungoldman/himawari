@@ -1,6 +1,10 @@
 ## Note ⚠️
 
-**This is a maintained fork of [jakiestfu/himawari.js](https://github.com/jakiestfu/himawari.js) published under a different namespace.**
+**This is a maintained fork of [jakiestfu/himawari.js](https://github.com/jakiestfu/himawari.js) published under a different namespace (`npm i @ungoldman/himawari`).**
+
+The original module (unmaintained since 2016) is broken due to a URL change from the satellite imagery provider.
+
+See [jakiestfu/himawari.js#29](https://github.com/jakiestfu/himawari.js/issues/29) for more info.
 
 ---
 
